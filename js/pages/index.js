@@ -58,10 +58,15 @@
 				  autoplay: true,
 				  autoplaySpeed: 2000
 				});
-
+				
 				mui('body').on('tap','a',function(){document.location.href=this.href;});
 				mui(".productList").on("tap","li",function(){
-				    location.href = "detail.html";
-				 
+					var type = $(this).attr("type");
+					if(type == "package"){
+						location.href = "packageDetail.html";
+					}else{
+						location.href = "detail.html";	
+					}
+				    
 				});
 			})

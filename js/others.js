@@ -19,6 +19,7 @@ $(function () {
 		$('aside.slide-wrapper').removeClass('moved');
 	});
     
+	countNum();
 
 });
 
@@ -91,3 +92,21 @@ $(function () {
 	
 	});
 })(mui, document);
+
+function countNum(){	
+	$(".you").on("tap",".plus",function(){
+		var that = $(this);
+		var n = Number(that.prev(".num").html());
+		n++;		
+		that.prev(".num").html(n);
+	})
+
+	$(".you").on("tap",".minus",function(){
+		var that = $(this);
+		var n = Number(that.next(".num").html());
+		if(n>1){			
+			n--;
+			that.next(".num").html(n);
+		}		
+	})
+}

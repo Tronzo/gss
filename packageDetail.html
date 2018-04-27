@@ -24,6 +24,8 @@
 <style type="text/css">
 	.detailInfo{background: #fff;}
 	.detailInfo img{max-width: 100%;}
+	.sdetail .middle{ padding: 10px 0; }
+	.pgMiddle{ margin-top: 5px; border-top: 1px solid #e7e7e7; }
 </style>
 </head>
 <!--loading页开始-->
@@ -47,7 +49,7 @@
 	        </a>
 	        <div class="top-sch-box top-sch-boxtwo flex-col">
 	            <ul>
-	            	<li class="cur"><a href="#">商品</a></li>
+	            	<li class="cur"><a href="#">套餐</a></li>
 	            	<!-- <li><a href="#">详情</a></li> -->
 	            	<!-- <li><a href="#">评价</a></li> -->
 	            </ul>
@@ -147,31 +149,39 @@
 		     			<img src="images/pro.png" />
 		     		</div>
 		     		<div class="you clearfloat fl">
-		     			<p class="tit">蒲田云宵枇杷10斤装</p>
+		     			<p class="tit">蒲田云宵枇杷套餐1</p>
 		     			<span>&yen; 66.00</span>
 		     		</div>
 		     	</div>
-		     	<div class="middle clearfloat">
+<!-- 		     	<div class="middle clearfloat">
 		     		<p>单位：8/个</p>		     				     	
-		     	</div>
-		     	<!-- <div class="middle clearfloat">
-		     		<p>颜色分类</p>
-		     		<div class="xia clearfloat">
-		     			<ul>
-			     			<li class="ra3 cur">金色</li>
-			     			<li class="ra3">灰色</li>
-			     		</ul>
-		     		</div>		     		
-		     	</div>
-		     	<div class="middle clearfloat">
-		     		<p>机身内存</p>
-		     		<div class="xia clearfloat">
-		     			<ul>
-			     			<li class="ra3 cur">128G</li>
-			     			<li class="ra3">16G</li>
-			     		</ul>
-		     		</div>		     		
 		     	</div> -->
+		     	<div class="middle clearfloat pgMiddle">
+		     		<ul>
+		     			<li><label><input type="radio" name="payThrough" > 微信支付</label></li>
+		     			<li><label><input type="radio" name="payThrough" > 支付宝支付</label></li>
+		     		</ul>		     				     	
+		     	</div>
+		     	<div class="confirm clearfloat">
+			     	<div class="add clearfloat box-s">
+		    			<a href="choice-address.html" >
+			    			<div class="left clearfloat fl">
+			    				<i class="iconfont icon-dizhi1"></i>
+			    			</div>
+			    			<div class="middle clearfloat fl">
+			    				<p class="tit">
+			    					收货人：王小王&nbsp;&nbsp;&nbsp;&nbsp;15806976589
+			    				</p>
+			    				<p class="fu-tit over2">
+			    					收货地址：安徽省合肥市高新区长江西路拓基城市广场金座A2002
+			    				</p>
+			    			</div>
+			    			<div class="left clearfloat fr">
+			    				<i class="iconfont icon-jiantou1"></i>
+			    			</div>
+		    			</a>
+		    		</div>
+	    		</div>
 		     	<div class="bottom clearfloat">
 		     		<p class="fl">购买数量</p>
 		     		<div class="you clearfloat fr">
@@ -184,7 +194,7 @@
 		     	</div>
 		     </div>
 		  </div>
-		  <a href="confirm.html" class="shop-btn db">确定</a>
+		  <a href="javascript:void(0);" class="shop-btn db">立即购买</a>
 		</div>
 		
 		<!--footer star-->
