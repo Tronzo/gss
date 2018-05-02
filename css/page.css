@@ -381,7 +381,7 @@ input[type="checkbox"]:checked+div {background: url(../img/queren.png)/*tpa=http
 .order-list .list .middle .price .sjzhuanx{margin-left: 4%; display: inline-block; background-color: #37a0ed; color: #fff;}
 .order-list .list .middle .price .shu{float: right; display: inline-block; font-size: .5rem; color: #4d4e50;}
 .gopay-btn{display: block; margin: 3% 0; width: 21.429%; margin-right: 5%; text-align: center; padding: 2% 0; background-color: #ff72ab; color: #fff; font-size: .5rem;}
-
+.order-list .shopban{ padding: 2% 5%; }
 /*
  订单跟踪----------------------------------------------------------------------------------
  * */
