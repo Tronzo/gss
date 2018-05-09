@@ -367,8 +367,8 @@ input[type="checkbox"]:checked+div {background: url(../img/queren.png)/*tpa=http
  全部订单----------------------------------------------------------------------------------
  * */
 .order-top{width: 100%; background-color: #FA478F;}
-.order-top ul li{float: left; width: 20%; text-align: center;}
-.order-top ul li a{padding: 20% 0; font-size: .5rem; display: inline-block; color: #fff;}
+.order-top ul li{float: left; width: 33.3%; text-align: center;}
+.order-top ul li a{padding: 8% 0; font-size: .5rem; display: inline-block; color: #fff;}
 .order-top ul li.cur a{border-bottom: 3px solid #ffb8df; color: #fff;}
 .order-list{width: 100%; background-color: #fff; margin-top: 5%; border-top: 1px solid #dcdad3; border-bottom: 1px solid #dcdad3;}
 .order-list .ordernum{width: 100%; padding:3% 5%; font-size: .5rem; color: #444444; border-bottom: 1px solid #dcdad3;}

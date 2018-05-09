@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="css/mui.min.css">
     <link rel="stylesheet" type="text/css" href="css/loaders.min.css">
     <link rel="stylesheet" type="text/css" href="css/loading.css">
+    <link rel="stylesheet" type="text/css" href="css/pages/order.css">
 <script type="text/javascript">
 	$(window).load(function(){
 		$(".loading").addClass("loader-chanage");
@@ -43,8 +44,9 @@
 	    		<ul>
 	    			<li class="clearfloat cur"><a href="order.html">全部</a></li>
 	    			<li class="clearfloat"><a href="pay-order.html">待付款</a></li>
-	    			<li class="clearfloat"><a href="send-order.html">待发货</a></li>
-	    			<li class="clearfloat"><a href="re-order.html">待收货</a></li>
+	    			<li class="clearfloat"><a href="buyedOrder.html">已购买</a></li>
+	    			<!-- <li class="clearfloat"><a href="send-order.html">待发货</a></li>
+	    			<li class="clearfloat"><a href="re-order.html">待收货</a></li> -->
 	    			<!-- <li class="clearfloat"><a href="#">待评价</a></li> -->
 	    		</ul>
 	    	</div>
@@ -56,7 +58,7 @@
 	    		<div class="shopban">
     				<img src="images/logo.jpg" alt="" class="logo" />果说说农场
     			</div>
-	    		<div class="list clearfloat fl box-s">
+	    		<div class="list clearfloat box-s">
 	    			<a href="detail.html">
 		    			<div class="tu fl clearfloat">
 		    				<img src="upload/21.jpg">
@@ -72,7 +74,7 @@
 		    			</div>
 	    			</a>
 	    		</div>
-	    		<div class="list clearfloat fl box-s">
+	    		<div class="list clearfloat box-s">
 	    			<a href="detail.html">
 		    			<div class="tu fl clearfloat">
 		    				<img src="upload/21.jpg">
@@ -88,20 +90,28 @@
 		    			</div>
 	    			</a>
 	    		</div>
-	    		<a href="#" class="gopay-btn fr">
-	    			立即支付
-	    		</a>
+	    		<div class="total clearfloat">
+	    			<span>合计: &yen;240.00</span>
+	    		</div>
+	    		<div class="clearfloat">
+		    		<a href="submit-order.html" class="gopay-btn fr">
+		    			确认付款
+		    		</a>
+		    		<a href="#" class="gopay-btn cancel-btn fr">
+		    			取消订单
+		    		</a>
+	    		</div>
 	    	</div>
 
 	    	<div class="order-list clearfloat">
 	    		<p class="ordernum box-s">
 	    			订单  123456789000
-	    			<span>待收货</span>
+	    			<span>已完成</span>
 	    		</p>
 	    		<div class="shopban">
     				<img src="images/logo.jpg" alt="" class="logo" />果说说农场
     			</div>
-	    		<div class="list clearfloat fl box-s">
+	    		<div class="list clearfloat box-s">
 	    			<a href="detail.html">
 		    			<div class="tu fl clearfloat">
 		    				<img src="upload/21.jpg">
@@ -141,7 +151,7 @@
 	    	<div class="order-list clearfloat">
 	    		<p class="ordernum box-s">
 	    			订单  123456789000
-	    			<span>待收货</span>
+	    			<span>已完成</span>
 	    		</p>
 	    		<div class="shopban">
     				<img src="images/logo.jpg" alt="" class="logo" />果说说农场
@@ -189,5 +199,5 @@
 	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
 	<script type="text/javascript" src="js/mui.min.js"></script>
 	<script type="text/javascript" src="js/hmt.js"></script>
-
+	<script type="text/javascript" src="js/pages/order.js"></script>
 </body></html>

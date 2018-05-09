@@ -21,6 +21,7 @@ audio:not([controls]) {
   height: 0;
 }
 [hidden],template {  display: none;}
+em,i{ font-style: normal; }
 a {  background-color: transparent;}
 a:active,a:hover {  outline: 0;}
 abbr[title] {  border-bottom: 1px dotted;}
