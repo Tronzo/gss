@@ -1,5 +1,5 @@
 $(function(){
-	$(document).delegate(".order-list",function(){
+	$(document).delegate(".order-list","click",function(){
 		
 	})
 })
